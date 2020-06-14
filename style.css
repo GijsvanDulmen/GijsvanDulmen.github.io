@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: #EEE;
+}
+
+.header {
+    width: 100%;
+    background-color: orange;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    box-shadow: inset 0 -10px 20px -10px rgba(0,0,0,0.6);
+}
+
+.header h1,
+.header h2,
+.header ul {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #FFF;
+    
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.header h2 {
+    font-size: 30px;
+    color: #444;
+
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.header ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.header ul li {
+    padding: 0;
+    display: inline-block;
+}
+
+.header ul li a {
+    font-size: 40px;
+    color: #FFF;
+    display: inline-block;
+    padding: 2px;
+    padding-right: 10px;
+    
+    color: rgba(255,255,255,0.7);
+}
+
+.contents {
+    width: 400px;
+    margin: 0 auto;
+    font-style: italic;
+}
